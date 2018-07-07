@@ -24,3 +24,7 @@ Error: ENOENT: no such file or directory, open '<path to this repo directory>/di
 ---
 
 No error occur when turn it off.
+
+## Issue
+
+Tracking on [rollup-plugin-typescript2#97](https://github.com/ezolenko/rollup-plugin-typescript2/issues/97)
