@@ -1,0 +1,25 @@
+{
+  "name": "rolup-vue-ts-issue",
+  "version": "0.0.0",
+  "description": "A repo to repro Rollup + Vue + TypeScript with declaration issue.",
+  "private": true,
+  "scripts": {
+    "prebuild": "rimraf dist/*",
+    "build": "rollup -c rollup.config.ts"
+  },
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "8",
+    "postcss": "^6.0.23",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.62.0",
+    "rollup-plugin-typescript2": "^0.15.1",
+    "rollup-plugin-vue": "^4.3.0",
+    "typescript": "~2.8",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
+}
