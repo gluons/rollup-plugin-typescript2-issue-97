@@ -1,7 +1,7 @@
 {
   "name": "rolup-vue-ts-issue",
   "version": "0.0.0",
-  "description": "A repo to repro Rollup + Vue + TypeScript with declaration issue.",
+  "description": "A repo to repro Rollup + Vue + TypeScript with declaration bundling issue.",
   "private": true,
   "scripts": {
     "prebuild": "rimraf dist/*",
