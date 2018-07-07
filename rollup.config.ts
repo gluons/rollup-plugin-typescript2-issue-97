@@ -22,7 +22,10 @@ export default {
 		}
 	],
 	plugins: [
-		ts(),
+		ts({
+			clean: true,
+			verbosity: 3 // Debug
+		}),
 		vue()
 	],
 	external: ['vue']
