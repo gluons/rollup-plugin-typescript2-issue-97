@@ -23,7 +23,6 @@ export default {
 	],
 	plugins: [
 		ts({
-			clean: true,
 			verbosity: 3 // Debug
 		}),
 		vue()
